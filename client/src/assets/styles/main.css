@@ -1,0 +1,11 @@
+thead {
+  background-color: rgb(222, 232, 232);
+  height: 40px;
+}
+
+th,
+td {
+  padding: 8px 16px;
+  height: 36px;
+  border-right: 1px solid #dadada;
+}
