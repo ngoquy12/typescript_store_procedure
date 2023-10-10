@@ -34,3 +34,8 @@ export const searchAndPaging = async (req: Request, res: Response) => {
   // Trả về kết quả cho client
   handleReponseData(res, data, HttpStatus.SUCCESS, "", HttpMessage.SUCCESS);
 };
+
+// API thêm mới user
+export const create = async (req: Request, res: Response) => {
+  await userService.create(res, req.body);
+};
